@@ -1,7 +1,7 @@
 # 🔥 Alat Pendeteksi Kebocoran Gas
 ### Berbasis Arduino Uno & Sensor MQ-5
 
-> Proyek tugas sekolah — SMKN 2 Surakarta | Teknik Elektronika | TA. 2025/2026
+> Proyek tugas sekolah — TA. 2025/2026
 
 ---
 

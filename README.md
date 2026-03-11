@@ -79,27 +79,6 @@ LCD I2C GND     →   GND
 arduino-cli lib install "LiquidCrystal I2C"
 ```
 
----
-
-## 🚀 Cara Upload (Arduino CLI)
-
-```bash
-# Clone repo
-git clone https://github.com/USERNAME/gas-leak-detector-arduino.git
-cd gas-leak-detector-arduino
-
-# Compile
-arduino-cli compile --fqbn arduino:avr:uno gas_leak_detector/
-
-# Upload (sesuaikan port)
-arduino-cli upload -p /dev/ttyUSB0 --fqbn arduino:avr:uno gas_leak_detector/
-
-# Monitor Serial
-arduino-cli monitor -p /dev/ttyUSB0 --config baudrate=9600
-```
-
----
-
 ## 🖥️ Contoh Output Serial Monitor
 
 ```
@@ -112,33 +91,11 @@ arduino-cli monitor -p /dev/ttyUSB0 --config baudrate=9600
 [20s] Gas: 615 / 1023  |  Level: KRITIS   (panik!)   !!!
 [25s] Gas: 94  / 1023  |  Level: AMAN     (random)
 ```
-
----
-
-## 📁 Struktur File
-
-```
-gas-leak-detector-arduino/
-│
-├── gas_leak_detector/
-│   └── gas_leak_detector.ino   ← Kode utama
-│
-├── diagram.json                ← Import ke Wokwi untuk simulasi
-└── README.md
-```
-
----
-
-## 🔬 Simulasi Wokwi
-
-Import file `diagram.json` ke [wokwi.com](https://wokwi.com) untuk simulasi tanpa hardware.
-
 ---
 
 ## 👤 Author
 
-**Bagus** — XI Teknik Elektronika A  
-SMK Negeri 2 Surakarta  
+**Bagus**
 Tahun Ajaran 2025/2026
 
 ---
